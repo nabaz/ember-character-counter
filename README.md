@@ -24,3 +24,9 @@ This README outlines the details of collaborating on this Ember addon.
 * `ember build`
 
 For more information on using ember-cli, visit [http://ember-cli.com/](http://ember-cli.com/).
+
+## Use
+
+To use the component inside your app use:
+
+* '{{character-counter characterCount=50 characterLimit=50 inputClass='class_name_for_the_input'}}'
