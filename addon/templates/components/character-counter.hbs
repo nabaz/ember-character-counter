@@ -1,4 +1,4 @@
-<div class="counter">
+<div class="counter {{if isOverLimit 'over-limit'}}">
   <span class="hide" style="display:none">{{inputClass}}</span>
   {{characterCount}}/{{characterLimit}}
 </div>

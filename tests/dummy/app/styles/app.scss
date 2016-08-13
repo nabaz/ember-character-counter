@@ -1,0 +1,8 @@
+.counter{
+  .hide{
+    display: none;
+  }
+  &.over-limit{
+    color: red;
+  }
+}
