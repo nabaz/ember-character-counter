@@ -4,7 +4,7 @@ This README outlines the details of collaborating on this Ember addon.
 
 ## Installation
 
-* `git clone` this repository
+* `npm install --save-dev ember-character-counter`
 * `npm install`
 * `bower install`
 
