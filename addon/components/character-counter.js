@@ -7,7 +7,7 @@ export default Ember.Component.extend({
   characterCount: 0,
   inputClass: '',
   setup: Ember.on('didInsertElement', function() {
-    Ember.$('body').on('keyup.subject', (e) => {
+    Ember.$('body').on('keyup', (e) => {
       this.set('characterCount', (this.characterLimit - Ember.$('.' + this.inputClass + '').val().length));
     });
   }),
