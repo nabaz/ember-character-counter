@@ -29,4 +29,4 @@ For more information on using ember-cli, visit [http://ember-cli.com/](http://em
 
 To use the component inside your app use:
 
-* '{{character-counter characterCount=50 characterLimit=50 inputClass='class_name_for_the_input'}}'
+* `{{character-counter characterCount=50 characterLimit=50 inputClass='class_name_for_the_input'}}`
