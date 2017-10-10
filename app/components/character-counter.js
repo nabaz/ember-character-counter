@@ -1,1 +1,1 @@
-export { default } from 'character-counter/components/character-counter';
+export { default } from 'ember-character-counter/components/character-counter';
